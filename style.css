@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+img {
+  width: 300px;
+}
+.product-card {
+  display: flex;
+  width: 800px;
+  border: 3px solid orange;
+}
+.product-images {
+  width: 40%;
+  background-color: darkorange;
+}
+.product-content {
+  width: 60%;
+  padding: 2rem;
+}
+.small-images {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.small-images img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid orange;
+}
+.qty-btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 6px;
+}
+.qty-btns button {
+  color: darkorange;
+  font-size: 22px;
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  padding: 20px 0;
+}
+.add-to-cart {
+  background-color: darkorange;
+  color: white;
+  border-radius: 6px;
+}
+button {
+  border: none;
+  cursor: pointer;
+  padding: 12px 28px;
+  background: transparent;
+}
+.company-title {
+  color: darkorange;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
